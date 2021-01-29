@@ -1,0 +1,18 @@
+admin user
+usr_name :hassan
+password 123456
+
+loans list     : http://127.0.0.1:8000/loanapp/loans/
+
+loan details   : http://127.0.0.1:8000/loanapp/loan/1
+
+loan offers    : http://127.0.0.1:8000/loanapp/loan/offers/1/         
+	 post  : {"annual_interest_rate": 15 } 
+
+
+accept offer   : http://127.0.0.1:8000/loanapp/accept_offer/1/1
+	post   : {"agree": "True"} 
+
+complete offer : http://127.0.0.1:8000/loanapp/loan/1-1/complete/
+	post   : {"completed": "True"} 
+
